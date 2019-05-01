@@ -1,0 +1,26 @@
+{
+  "name": "balena-ble-proximity",
+  "version": "0.1.0",
+  "description": "A bluetooth proximity tracker on balena",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderkevin/balena-ble-proximity.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Kevin Killingsworth <http://github.com/coderkevin>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coderkevin/balena-ble-proximity/issues"
+  },
+  "homepage": "https://github.com/coderkevin/balena-ble-proximity#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}
