@@ -9,8 +9,15 @@
 	</head>
 	<body>
 		<h1 class="title">BLE Proximity</h1>
-		<p>
-			This will contain information about bluetooth device proximity.
-		</p>
+		<p>Scanning for address: {{ proximityAddress }}</p>
+		<ol>
+			{% for neighbor in neighbors %}
+				<li>
+					<strong>{{ neighbor.dB }} dB: </strong>
+					<span>{{ neighbor.addr }} ({{ neighbor.addrType }})</span>
+					<span>{{ neighbor.localName }}</span>
+				</li>
+			{% endfor %}
+		</ol>
 	</body>
 </html>
